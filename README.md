@@ -1,23 +1,24 @@
 # RadioJavanDLG
-Radio Javan Download Link Generator
+# RadioJavan Download Link Generator A Python script that utilizes the Radio Javan API to generate download links for playlists, podcasts, albums, artist, songs, and videos from Radio Javan. 
+## Requirements 
+- Python 3.x 
+- radiojavanapi library 
+- requests library 
+- tqdm library 
+- BeautifulSoup library 
 
-To install the required libraries, you can use the following command:
+## Installation 
 
-pip install -r requirements.txt
+1. Download Code
+2. Install the required libraries: pip install -r requirements.txt 
 
-This command installs all the necessary libraries for the program, which are listed in the requirements.txt file.
-To use the program, you need to run the main.py file. You can do this by entering the following command in the terminal:
+## Usage To use the Radio Javan Link Generator, you need to pass a valid Radio Javan URL as an argument when running the script.
 
-python main.py <URL>
-  In this command, <URL> should be the URL of one of the following:
+### Example: 
+- Generate download links for a playlist: 
+python main.py “https://www.radiojavan.com/playlist/123asd413” 
 
-    Playlist URL
-    Podcast URL
-    Album URL
-    Artist URL
-    Song URL
-    Music Video URL
+## rj.app domain links are currently not supported.
 
-After entering the URL, the program retrieves the relevant information from the RadioJavan website and saves it in text files. For each type of URL, a corresponding text file is created with the appropriate naming. For example, for a Playlist URL, a file called links.txt is created in the corresponding folder.
+## Contributing Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change. Please make sure to update tests as appropriate.
 
-rj.app domain links are currently not supported

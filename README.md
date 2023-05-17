@@ -10,14 +10,18 @@
 ## Installation 
 
 1. Download Code
-2. Install the required libraries: pip install -r requirements.txt 
+2. Install the required libraries: 
+```bash
+pip install -r requirements.txt
+```
 
 ## Usage To use the Radio Javan Link Generator, you need to pass a valid Radio Javan URL as an argument when running the script.
 
 ### Example: 
-- Generate download links for a playlist: 
-python main.py “https://www.radiojavan.com/playlist/123asd413” 
-
+- Generate download links : 
+```bash
+python main.py https://www.radiojavan.com/playlist/123asd413
+```
 ## rj.app domain links are currently not supported.
 
 ## Contributing Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change. Please make sure to update tests as appropriate.

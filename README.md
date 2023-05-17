@@ -19,3 +19,5 @@ python main.py <URL>
     Music Video URL
 
 After entering the URL, the program retrieves the relevant information from the RadioJavan website and saves it in text files. For each type of URL, a corresponding text file is created with the appropriate naming. For example, for a Playlist URL, a file called links.txt is created in the corresponding folder.
+
+rj.app domain links are currently not supported
